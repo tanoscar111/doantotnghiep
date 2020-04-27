@@ -1,0 +1,352 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Serif", Helvetica, sans-serif;
+}
+
+.index {
+    font-family: 'Markazi Text';
+    background-color: white;
+    border: solid 1px rgba(160, 160, 160, 0.3);
+    width: 100%;
+}
+
+.logo {
+
+    padding-top: 6px !important;
+
+    border-right: solid 1px rgba(160, 160, 160, 0.3);
+    max-height: 100%;
+    color: inherit;
+
+}
+
+.navbar {
+    align-items: initial;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 3.5em;
+}
+
+.navbar-brand:hover {
+    color: #1BADA1 !important;
+}
+
+.nav-item {
+    text-transform: capitalize;
+    text-align: center;
+    padding-left: 9px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.nav-link {
+    color: black !important;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.nav-link:hover {
+    color: #1BADA1 !important;
+}
+
+.nav-item1 {
+
+    border-left: solid 1px rgba(160, 160, 160, 0.3);
+    text-transform: capitalize;
+    text-align: center;
+    padding-left: 9px;
+    padding-right: 5px;
+
+}
+
+.wrap {
+    display: inline-block;
+    padding: 0;
+}
+
+input[type="text"] {
+
+    font-size: 1.25em;
+    display: inline-block;
+    font-family: "Lato";
+    font-weight: 100;
+    border: none;
+    outline: none;
+    color: #555;
+    padding: 3px;
+    width: 0px;
+    background: none;
+    z-index: 3;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+    border-bottom: 1px solid #BBB;
+}
+
+input[type="text"]:focus {
+    width: 200px;
+    z-index: 1;
+    border-bottom: 1px solid #BBB;
+
+    cursor: text;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+.baner {
+
+    background-attachment: fixed;
+    background-image: url(../img/123.jpg);
+    background-repeat: no-repeat;
+    background-position: center top ;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 471px;
+    max-height: 100%;
+    filter: brightness(80%);
+}
+
+.banerIn {
+    overflow: hidden;
+    opacity: 1;
+    position: relative;
+    top: 50%;
+    padding: 0em 2em 1em 2em;
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.thanh {
+    word-wrap: break-word;
+    position: relative;
+    width: 60%;
+    height: 1px;
+    background: #ffffff;
+    left: 20%;
+    bottom: 0px;
+}
+
+.name {
+    position: relative;
+    margin: 0;
+    color: #ffffff !important;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 70px;
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 720px){
+    .name{
+        font-size: 40px;
+    }
+    .banerIn{
+        width: 80%;
+    }
+    .anh{
+        height: 377px !important;
+    }
+}
+@media only screen and (max-width: 320px){
+    .banerIn{
+        width: 87%;
+    }
+    .anh{
+        height: 377px !important;
+    }
+}
+.cap {
+    position: relative;
+    margin: 0;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+
+}
+
+.post {
+    margin-top: 10px;
+    margin-left: 83px;
+    padding: 2em 2em 0.1em 2em;
+    background: #ffffff;
+    border: solid 1px rgba(160, 160, 160, 0.3);
+    margin: 0px 0 2em 0;
+    position: relative;
+    box-shadow: 0 10px 10px -10px #aaa;
+}
+
+.tile {
+    padding: 1em 2em 1em 2em;
+    text-align: center;
+    position: relative;
+    border: solid 1px rgba(160, 160, 160, 0.3);
+}
+
+.tile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #1BADA1;
+}
+
+.poster {
+    margin-top: 60px;
+  
+    margin-top: 60px;
+    margin-left: 103px;
+    margin-right: 50px;
+}
+
+.tieude::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 60%;
+    height: 0;
+    border-bottom: 1px solid #1BADA1;
+}
+
+.anh {
+    width: 100%;
+    height: 628px;
+    margin-top: 12px;
+    max-width: 100%;
+}
+
+.thongtin {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 30px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.write1 {
+    word-wrap: break-word;
+}
+
+.button {
+    margin-bottom: 10px;
+    color: #3c3b3b !important;
+    cursor: pointer;
+    display: inline-block;
+
+    font-size: 0.6em;
+    font-weight: 800;
+    height: 4.8125em;
+    letter-spacing: 0.1em;
+    line-height: 4.8125em;
+    padding: 0 2.5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border: 1px solid rgba(160, 160, 160, 0.3);
+}
+
+.cv {
+    margin-left: 2em;
+   
+    background: #ffffff;
+
+    margin: 0px 0 2em 0;
+    position: relative;
+}
+
+
+.logo1 {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 6.5em;
+    border-radius: 50%;
+}
+
+.logocanhan::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left:2px ;
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid rgb(27, 173, 161);
+}
+.ten{
+    font-family: "Noto Serif", Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight:500;
+    text-transform: uppercase;
+    font-family: Dancing Script;
+}
+.aboutme{
+    font-size: 20px;
+    margin: 0 0 1.5em 0;
+    font-weight: 600;
+}
+.thongtincuatanne{
+    position: relative;
+}
+.thongtinhihi::after {
+    content: "";
+    position: absolute;
+    bottom: -11px;
+    left:2px ;
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid rgb(27, 173, 161);
+}
+.ngu{
+    font-weight: 600;
+}
+.hhaha{
+    font-size: 20px;
+    word-wrap: break-word !important;
+}
+.followme{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fab{
+    font-size: 27px ;
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.hehe{
+    position: fixed;
+}
+.co-dinh-menu {
+	height:3.5em;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1000;
+}
